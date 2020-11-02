@@ -1,0 +1,4 @@
+.dialogs-wrapper {
+    display: flex;
+    min-height: 100%;
+}

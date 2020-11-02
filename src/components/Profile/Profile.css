@@ -1,0 +1,18 @@
+.main {
+    grid-area: m;
+}
+
+.main img {
+    width: 100%;
+    height: auto;
+}
+
+.main__top-image {
+    max-height: 223px;
+    object-fit: cover;
+}
+
+.main__content {
+    display: flex;
+    flex-direction: column;
+}

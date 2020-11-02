@@ -1,0 +1,32 @@
+.chat__wrapper {
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    border: 1px solid #2d2d2d;
+    padding: 10px;
+    border-radius: 10px;
+}
+.message {
+    padding: 10px;
+    border: 1px solid #2d2d2d;
+    border-radius: 10px;
+    margin: 10px 0;
+    max-width: 300px;
+}
+.message__text {
+    margin: 0;
+}
+.yours-message {
+    display: flex;
+    justify-content: center;
+    background-color: #1d1d1d;
+    color: #fff;
+    margin-left: auto;
+}
+.chat__input {
+    margin-top: auto;
+    padding: 10px;
+    outline: none;
+    font-size: inherit;
+}

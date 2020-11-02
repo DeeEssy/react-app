@@ -1,0 +1,20 @@
+.main__info {
+    display: flex;
+}
+.main__text {
+    margin-left: 10px;
+}
+.main__avatar {
+    max-width: 170px;
+    height: auto;
+}
+.main__list {
+    margin: 0;
+    padding: 0 0 0 10px;
+}
+.main__item {
+    list-style: none;
+}
+.main__title {
+    margin: 10px 0;
+}

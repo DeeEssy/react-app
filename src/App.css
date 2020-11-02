@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 .page {
   display: grid;
   max-width: 1380px;
@@ -7,52 +8,9 @@
   's m m';
   grid-template-rows: 60px 1fr;
   grid-template-columns: 2fr 10fr;
-  grid-gap: 10px;
+  min-height: 800px;
+  font-family: 'Roboto', sans-serif;
 }
-.header {
-  grid-area: h;
-  background-color: #13ce66;
-}
-.header img {
-  max-width: 40px;
-}
-
-.sidebar {
-  grid-area: s;
-  background-color: #13ce60;
-}
-
-.main {
-  grid-area: m;
-}
-.main img {
-  width: 100%;
-  height: auto;
-}
-.main__top-image {
-  max-height: 223px;
-  object-fit: cover;
-}
-.main__content {
-  display: flex;
-  flex-direction: column;
-}
-.main__info {
-  display: flex;
-}
-.main__avatar {
-  max-width: 170px;
-  height: auto;
-}
-.new-post {
-  display: flex;
-  flex-direction: column;
-}
-.new-post__text {
-  width: 100%;
-}
-.posts {
-  margin: 50px 0;
-  display: flex;
-  flex-direction: column;
+.page-content {
+  min-height: 100%;
 }
