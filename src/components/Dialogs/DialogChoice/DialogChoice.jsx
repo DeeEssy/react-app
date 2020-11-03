@@ -36,6 +36,7 @@ const DialogChoice = (props) => {
             name: 'Viktor',
         },
     ];
+    console.log(DialogChoice);
     let usersDataComponentProcess = usersData.map(el => {
         return (<DialogItem  name={el.name} idDialog={el.id}/>);
     });
