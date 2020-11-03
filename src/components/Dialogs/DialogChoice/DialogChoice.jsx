@@ -9,17 +9,41 @@ const DialogItem = (props) => {
     );
 };
 
-const DialogChoice = () => {
+const DialogChoice = (props) => {
+    let usersData = [
+        {
+            id: 31242142,
+            name: 'Andrew',
+        },
+        {
+            id: 3543221412,
+            name: 'Dmitry',
+        },
+        {
+            id: 213544321,
+            name: 'Sasha',
+        },
+        {
+            id: 3112154321,
+            name: 'Sveta',
+        },
+        {
+            id: 2133154321,
+            name: 'Valera',
+        },
+        {
+            id: 86546054321,
+            name: 'Viktor',
+        },
+    ];
+    let usersDataComponentProcess = usersData.map(el => {
+        return (<DialogItem  name={el.name} idDialog={el.id}/>);
+    });
     return (
         <div className="dialog-choice__wrapper">
             <h2 className="dialog-choice__title">DIALOGS</h2>
             <ul className="dialog-choice__list">
-                <DialogItem name="Andrew" idDialog="31242142"/>
-                <DialogItem name="Dmitry" idDialog="3543221412"/>
-                <DialogItem name="Sasha" idDialog="213544321"/>
-                <DialogItem name="Sveta" idDialog="3112154321"/>
-                <DialogItem name="Valera" idDialog="2133154321"/>
-                <DialogItem name="Viktor" idDialog="86546054321"/>
+                {usersDataComponentProcess}
             </ul>
         </div>
     );
